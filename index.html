@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#6f4f3d" />
+  <meta name="description" content="Undangan pernikahan Yanuar & Fanesa, 12 September 2026." />
+  <title>Yanuar & Fanesa — 12 September 2026</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="locked">
+  <div class="grain" aria-hidden="true"></div>
+
+  <!-- Sampul -->
+  <section id="cover" class="cover">
+    <div class="cover__ornament cover__ornament--one"></div>
+    <div class="cover__ornament cover__ornament--two"></div>
+
+    <div class="cover__card reveal is-visible">
+      <p class="eyebrow">The Wedding of</p>
+      <h1>Yanuar <span>&</span> Fanesa</h1>
+      <p class="cover__date">12 · 09 · 2026</p>
+
+      <div class="guest-card">
+        <small>Kepada Yth.</small>
+        <strong id="guestName">Bapak/Ibu/Saudara/i</strong>
+        <span>di tempat</span>
+      </div>
+
+      <button id="openInvitation" class="btn btn--primary" type="button">
+        <span aria-hidden="true">✉</span> Buka Undangan
+      </button>
+      <p class="cover__note">Mohon maaf apabila ada kesalahan penulisan nama atau gelar.</p>
+    </div>
+  </section>
+
+  <main id="mainContent" aria-hidden="true">
+    <!-- Hero -->
+    <section class="hero section">
+      <div class="hero__glow"></div>
+      <div class="container hero__content reveal">
+        <p class="eyebrow">Save the Date</p>
+        <h2>Yanuar <span>&</span> Fanesa</h2>
+        <p class="hero__date">Sabtu, 12 September 2026</p>
+        <div class="divider"><span>✦</span></div>
+        <p class="hero__intro">
+          Dengan penuh rasa syukur dan sukacita, kami mengundang Anda
+          untuk hadir dan memberikan doa restu pada hari bahagia kami.
+        </p>
+        <a href="#acara" class="btn btn--ghost">Lihat Detail Acara</a>
+      </div>
+      <a class="scroll-hint" href="#mempelai" aria-label="Gulir ke bagian mempelai">↓</a>
+    </section>
+
+    <!-- Kutipan -->
+    <section class="quote section section--cream">
+      <div class="container container--narrow reveal">
+        <p class="quote__mark">“</p>
+        <blockquote>
+          Dan di antara tanda-tanda kebesaran-Nya ialah Dia menciptakan
+          pasangan-pasangan untukmu dari jenismu sendiri, agar kamu cenderung
+          dan merasa tenteram kepadanya, dan Dia menjadikan di antaramu rasa
+          kasih dan sayang.
+        </blockquote>
+        <p class="quote__source">QS. Ar-Rum: 21</p>
+      </div>
+    </section>
+
+    <!-- Mempelai -->
+    <section id="mempelai" class="couple section">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Mempelai</p>
+          <h2>Dengan memohon rahmat Allah SWT</h2>
+          <p>Kami bermaksud menyelenggarakan pernikahan putra-putri kami.</p>
+        </div>
+
+        <div class="couple__grid">
+          <article class="person-card reveal">
+            <div class="person-card__photo">
+              <span>Foto Yanuar</span>
+            </div>
+            <h3>Yanuar</h3>
+            <p>Putra dari</p>
+            <strong>Bapak [Nama Ayah] & Ibu [Nama Ibu]</strong>
+            <a href="#" aria-label="Instagram Yanuar">@username_yanuar</a>
+          </article>
+
+          <div class="couple__and reveal">&</div>
+
+          <article class="person-card reveal">
+            <div class="person-card__photo person-card__photo--alt">
+              <span>Foto Fanesa</span>
+            </div>
+            <h3>Fanesa</h3>
+            <p>Putri dari</p>
+            <strong>Bapak [Nama Ayah] & Ibu [Nama Ibu]</strong>
+            <a href="#" aria-label="Instagram Fanesa">@username_fanesa</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Countdown -->
+    <section class="countdown section section--dark">
+      <div class="container reveal">
+        <p class="eyebrow">Menuju Hari Bahagia</p>
+        <h2>Hitung Mundur</h2>
+        <div id="countdown" class="countdown__grid" aria-live="polite">
+          <div><strong id="days">00</strong><span>Hari</span></div>
+          <div><strong id="hours">00</strong><span>Jam</span></div>
+          <div><strong id="minutes">00</strong><span>Menit</span></div>
+          <div><strong id="seconds">00</strong><span>Detik</span></div>
+        </div>
+        <button id="saveDate" class="btn btn--light" type="button">Simpan Tanggal</button>
+      </div>
+    </section>
+
+    <!-- Detail Acara -->
+    <section id="acara" class="events section section--cream">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Rangkaian Acara</p>
+          <h2>Hari yang kami nantikan</h2>
+          <p>Merupakan suatu kehormatan bagi kami apabila Anda berkenan hadir.</p>
+        </div>
+
+        <div class="events__grid">
+          <article class="event-card reveal">
+            <div class="event-card__icon">◌</div>
+            <h3>Akad Nikah</h3>
+            <p class="event-card__day">Sabtu</p>
+            <div class="event-card__date">
+              <strong>12</strong>
+              <span>September<br>2026</span>
+            </div>
+            <p><b>09.00 WIB</b> — selesai</p>
+            <div class="event-card__line"></div>
+            <h4>[Nama Lokasi Akad]</h4>
+            <p>[Alamat lengkap lokasi akad]</p>
+            <a class="btn btn--small btn--outline" href="https://maps.google.com/" target="_blank" rel="noopener">Buka Google Maps</a>
+          </article>
+
+          <article class="event-card reveal">
+            <div class="event-card__icon">✦</div>
+            <h3>Resepsi</h3>
+            <p class="event-card__day">Sabtu</p>
+            <div class="event-card__date">
+              <strong>12</strong>
+              <span>September<br>2026</span>
+            </div>
+            <p><b>11.00–14.00 WIB</b></p>
+            <div class="event-card__line"></div>
+            <h4>[Nama Lokasi Resepsi]</h4>
+            <p>[Alamat lengkap lokasi resepsi]</p>
+            <a class="btn btn--small btn--outline" href="https://maps.google.com/" target="_blank" rel="noopener">Buka Google Maps</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Kisah -->
+    <section class="story section">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Our Story</p>
+          <h2>Perjalanan menuju selamanya</h2>
+        </div>
+
+        <div class="timeline">
+          <article class="timeline__item reveal">
+            <span>01</span>
+            <div>
+              <small>[Tahun Pertama Bertemu]</small>
+              <h3>Awal Pertemuan</h3>
+              <p>Tuliskan kisah singkat tentang bagaimana Yanuar dan Fanesa pertama kali bertemu.</p>
+            </div>
+          </article>
+          <article class="timeline__item reveal">
+            <span>02</span>
+            <div>
+              <small>[Tanggal Lamaran]</small>
+              <h3>Lamaran</h3>
+              <p>Tuliskan momen ketika hubungan ini melangkah menuju komitmen yang lebih serius.</p>
+            </div>
+          </article>
+          <article class="timeline__item reveal">
+            <span>03</span>
+            <div>
+              <small>12 September 2026</small>
+              <h3>Hari Pernikahan</h3>
+              <p>Hari ketika dua perjalanan dipersatukan dalam ikatan suci pernikahan.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Galeri -->
+    <section class="gallery section section--cream">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Galeri</p>
+          <h2>Potongan cerita kami</h2>
+        </div>
+
+        <div class="gallery__grid">
+          <figure class="gallery__item gallery__item--tall reveal"><span>Tambahkan Foto 1</span></figure>
+          <figure class="gallery__item reveal"><span>Tambahkan Foto 2</span></figure>
+          <figure class="gallery__item reveal"><span>Tambahkan Foto 3</span></figure>
+          <figure class="gallery__item gallery__item--wide reveal"><span>Tambahkan Foto 4</span></figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- RSVP -->
+    <section class="rsvp section section--dark">
+      <div class="container container--narrow reveal">
+        <p class="eyebrow">Konfirmasi Kehadiran</p>
+        <h2>RSVP & Ucapan</h2>
+        <p class="rsvp__intro">Mohon konfirmasi kehadiran dan tinggalkan doa terbaik untuk kami.</p>
+
+        <form id="rsvpForm" class="rsvp-form">
+          <label>
+            Nama
+            <input id="rsvpName" name="name" type="text" placeholder="Masukkan nama Anda" required />
+          </label>
+
+          <label>
+            Konfirmasi Kehadiran
+            <select id="attendance" name="attendance" required>
+              <option value="">Pilih jawaban</option>
+              <option value="Hadir">Hadir</option>
+              <option value="Tidak Hadir">Tidak Hadir</option>
+              <option value="Masih Ragu">Masih Ragu</option>
+            </select>
+          </label>
+
+          <label>
+            Jumlah Tamu
+            <select id="guestCount" name="guestCount">
+              <option value="1">1 orang</option>
+              <option value="2">2 orang</option>
+              <option value="3">3 orang</option>
+              <option value="4">4 orang</option>
+            </select>
+          </label>
+
+          <label>
+            Ucapan & Doa
+            <textarea id="message" name="message" rows="4" placeholder="Tulis ucapan untuk Yanuar & Fanesa" required></textarea>
+          </label>
+
+          <button class="btn btn--light" type="submit">Kirim Konfirmasi</button>
+          <p id="formStatus" class="form-status" role="status"></p>
+        </form>
+
+        <div id="wishesList" class="wishes-list"></div>
+      </div>
+    </section>
+
+    <!-- Hadiah -->
+    <section class="gift section">
+      <div class="container container--narrow reveal">
+        <p class="eyebrow">Wedding Gift</p>
+        <h2>Tanda kasih</h2>
+        <p>
+          Kehadiran dan doa restu Anda adalah hadiah terindah bagi kami.
+          Namun, apabila ingin memberikan tanda kasih, dapat melalui informasi berikut.
+        </p>
+
+        <div class="gift-card">
+          <span>Bank [Nama Bank]</span>
+          <strong id="accountNumber">0000 0000 0000</strong>
+          <p>a.n. [Nama Pemilik Rekening]</p>
+          <button class="btn btn--small btn--outline" type="button" data-copy="#accountNumber">Salin Nomor</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Penutup -->
+    <footer class="footer section section--cream">
+      <div class="container container--narrow reveal">
+        <p>Merupakan kebahagiaan bagi kami apabila Anda berkenan hadir dan memberikan doa restu.</p>
+        <h2>Yanuar <span>&</span> Fanesa</h2>
+        <p class="footer__date">12 September 2026</p>
+        <small>Terima kasih</small>
+      </div>
+    </footer>
+  </main>
+
+  <button id="musicButton" class="music-button" type="button" aria-label="Putar atau jeda musik" title="Musik">
+    ♪
+  </button>
+
+  <!-- Ganti src dengan berkas musik milik Anda, misalnya assets/music.mp3 -->
+  <audio id="backgroundMusic" loop preload="none">
+    <source src="" type="audio/mpeg" />
+  </audio>
+
+  <div id="toast" class="toast" role="status"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
